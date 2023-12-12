@@ -16,8 +16,22 @@ server:
             - /test-resources
           url: https://ui5.sap.com
         backend:
-          - path: /sap
-            url: http://localhost
+          - path: /destinations/IDP_Nissan
+            pathPrefix: /
+            url: https://argf04rxd.accounts.ondemand.com
+            destination: IDP_Nissan
+          - path: /destinations/AR_DP_DEST_HANA
+            pathPrefix: /
+            url: https://nissan-cfdatabases-databases-nissan-qas-xsjs-service.cfapps.us10.hana.ondemand.com/AR_DP_REP_PACKAGE_QAS/services
+            destination: AR_DP_DEST_HANA
+          - path: /destinations/AR_DP_DEST_CPI
+            pathPrefix: /
+            url: https://l5355-iflmap.hcisbp.us2.hana.ondemand.com
+            destination: AR_DP_DEST_CPI
+          - path: /destinations/AR_DP_DEST_ODATA
+            pathPrefix: /
+            url: https://nissanargcf.us10.services.xfs.cloud.sap
+            destination: AR_DP_DEST_ODATA
     - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:

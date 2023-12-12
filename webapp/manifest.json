@@ -15,7 +15,7 @@
 		},
 		"dataSources": {
 			"mainService": {
-				"uri": "/destinations/AR_DP_REP_DEST_HANA/ODATA_masterPedido.xsodata",
+				"uri": "/destinations/AR_DP_DEST_HANA/ODATA_masterPedido.xsodata",
 				"type": "OData"
 			},
 			"reporte": {
