@@ -1,0 +1,1 @@
+sap.ui.define(["AR_DP_REP_PEDIDOSREPORTE_EXPO/AR_DP_REP_PEDIDOSREPORTE_EXPO/controller/Reporte.controller"],function(t){"use strict";QUnit.module("Reporte Controller");QUnit.test("I should test the Reporte controller",function(e){var o=new t;o.onInit();e.ok(o)})});
