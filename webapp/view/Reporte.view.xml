@@ -99,7 +99,7 @@
 						</Panel>
 						<Panel>
 
-							<Table mode="none" items="{pedidos>/}" width="auto" id="tMaestra" vertical="true" growing="true" growingScrollToLoad="true" growingThreshold="100"
+							<Table mode="None" items="{pedidos>/}" width="auto" id="tMaestra" vertical="true" growing="true" growingScrollToLoad="true" growingThreshold="100"
 								sticky="ColumnHeaders" busyIndicatorDelay="{pedidos>/SELECT}"  includeItemInSelection="true"  >
 								<headerToolbar>
 									<OverflowToolbar>
