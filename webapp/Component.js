@@ -1,7 +1,7 @@
-sap.ui.define(["sap/ui/core/UIComponent", "sap/ui/Device", "AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO/AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO/model/models"], function (t,
+sap.ui.define(["sap/ui/core/UIComponent", "sap/ui/Device", "AR_DP_REP_REPORTESEGUIMIENTOVOR_EX/AR_DP_REP_REPORTESEGUIMIENTOVOR_EX/model/models"], function (t,
 	e, i) {
 	"use strict";
-	return t.extend("AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.Component", {
+	return t.extend("AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.Component", {
 		metadata: {
 			manifest: "json"
 		},

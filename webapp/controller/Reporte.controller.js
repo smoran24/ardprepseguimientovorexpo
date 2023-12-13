@@ -20,7 +20,7 @@ sap.ui.define([
 
 	var oView, oSAPuser, t, company, nombreUsuario;
 	var Vor;
-	return Controller.extend("AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.controller.Reporte", {
+	return Controller.extend("AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.controller.Reporte", {
 		onInit: function () {
 			t = this;
 			oView = this.getView();
@@ -742,7 +742,7 @@ sap.ui.define([
 			// create dialog lazily
 			if (!oDialog) {
 				// create dialog via fragment factory
-				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.view.Correo", this);
+				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.view.Correo", this);
 				oView.addDependent(oDialog);
 			}
 			oDialog.open();
@@ -844,7 +844,7 @@ sap.ui.define([
 			// create dialog lazily
 			if (!oDialog) {
 				// create dialog via fragment factory
-				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.view.PopUp", this);
+				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.view.PopUp", this);
 				oView.addDependent(oDialog);
 			}
 			oDialog.open();
@@ -860,7 +860,7 @@ sap.ui.define([
 			// create dialog lazily
 			if (!oDialog) {
 				// create dialog via fragment factory
-				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.view.SuccesCorreo",
+				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.view.SuccesCorreo",
 					this); //aqui se debe cambiar ar_dp_rep
 				oView.addDependent(oDialog);
 			}

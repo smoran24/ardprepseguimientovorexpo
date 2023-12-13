@@ -1,4 +1,4 @@
-<mvc:View controllerName="AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.controller.Reporte" xmlns:core="sap.ui.core"
+<mvc:View controllerName="AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.controller.Reporte" xmlns:core="sap.ui.core"
 	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:t="sap.ui.table" xmlns:m="sap.m">
 	<Shell id="shell">
 		<App id="app">

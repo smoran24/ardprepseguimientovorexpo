@@ -1,7 +1,7 @@
 {
 	"_version": "1.12.0",
 	"sap.app": {
-		"id": "AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO",
+		"id": "AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.AR_DP_REP_REPORTESEGUIMIENTOVOR_EX",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
@@ -58,7 +58,7 @@
 	"sap.ui5": {
 		"flexEnabled": false,
 		"rootView": {
-			"viewName": "AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.view.Reporte",
+			"viewName": "AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.view.Reporte",
 			"type": "XML",
 			"async": true,
 			"id": "Reporte"
@@ -79,7 +79,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.i18n.i18n"
+					"bundleName": "AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.i18n.i18n"
 				}
 			}
 		},
@@ -95,7 +95,7 @@
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
 				"async": true,
-				"viewPath": "AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.AR_DP_REP_REPORTESEGUIMIENTOVOR_EXPO.view",
+				"viewPath": "AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.AR_DP_REP_REPORTESEGUIMIENTOVOR_EX.view",
 				"controlAggregation": "pages",
 				"controlId": "app",
 				"clearControlAggregation": false
