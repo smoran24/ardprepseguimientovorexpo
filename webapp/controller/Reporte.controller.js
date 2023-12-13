@@ -299,7 +299,7 @@ sap.ui.define([
 
 						let idPedido = Number(transaccion.Pedido);
 						let idMaterial = transaccion.Material
-						t.generarEntradaAuditoria(idPedido, idMaterial, comentario);
+						//t.generarEntradaAuditoria(idPedido, idMaterial, comentario);
 					},
 					error: function (jqXHR, textStatus, errorThrown) {
 						var obj2 = {
@@ -339,7 +339,7 @@ sap.ui.define([
 								arr2.push(obj2);
 								t.popSuccesCorreo(arr2, "Mensaje");
 								t.ConsultaVOR();
-								t.generarEntradaAuditoria(idp, idm, comentario);
+								//t.generarEntradaAuditoria(idp, idm, comentario);
 							},
 							error: function (jqXHR, textStatus, errorThrown) {
 								var obj2 = {
